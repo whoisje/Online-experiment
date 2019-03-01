@@ -39,9 +39,9 @@
  #### 功能实现
 
  1. 学生登录功能  
- ![学生登录功能](Online-experiment/image/登录流程.png)  
+ ![学生登录功能](https://github.com/whoisje/Online-experiment/image/登录流程.png)  
  2. 学生课程列表获取  
- ![实验列表获取](Online-experiment/image/实验列表.png)
+ ![实验列表获取](https://github.com/whoisje/Online-experiment/image/实验列表.png)
  3. 实验状态显示  
  4. 实验内容获取  
  5. 学生已经填写的内容获取  
