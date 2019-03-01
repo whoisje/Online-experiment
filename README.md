@@ -40,14 +40,15 @@
 
  1. 学生登录功能
 
- ![登录功能](https://github.com/whoisje/Online-experiment/blob/master/image/%E7%99%BB%E5%BD%95%E6%B5%81%E7%A8%8B.png)
+ ![学生登录功能](https://github.com/whoisje/Online-experiment/blob/master/image/%E7%99%BB%E5%BD%95%E6%B5%81%E7%A8%8B.png)
 
- 2. 学生课程列表获取
+ 2. 学生课程实验列表获取
+
+ ![课程实验列表获取](https://github.com/whoisje/Online-experiment/blob/master/image/%E5%AE%9E%E9%AA%8C%E5%88%97%E8%A1%A8.png)  
+ 
  3. 实验状态显示
  4. 实验内容获取
  5. 学生已经填写的内容获取
  6. 保存与提交
  7. 代码在线运行
- 8. 老师处理结果
-
-
+ 8. 老师处理结果  
