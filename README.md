@@ -40,7 +40,7 @@
 
  1. 学生登录功能
 
- ![登录功能](https://github.com/whoisje/Online-experiment/image/登录流程.png)
+ ![登录功能](https://github.com/whoisje/Online-experiment/blob/master/image/%E7%99%BB%E5%BD%95%E6%B5%81%E7%A8%8B.png)
 
  2. 学生课程列表获取
  3. 实验状态显示
