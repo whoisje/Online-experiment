@@ -47,6 +47,12 @@
  ![课程实验列表获取](https://github.com/whoisje/Online-experiment/blob/master/image/%E5%AE%9E%E9%AA%8C%E5%88%97%E8%A1%A8.png)  
  
  3. 实验内容与学生已经填写的部分获取
+ 
+ ![实验内容获取](https://github.com/whoisje/Online-experiment/blob/master/image/%E5%AE%9E%E9%AA%8C%E5%86%85%E5%AE%B9%E8%8E%B7%E5%8F%96.png)
+ 
  5. 在线运行代码
+ 
+ ![在线运行代码](https://github.com/whoisje/Online-experiment/blob/master/image/%E5%9C%A8%E7%BA%BF%E6%89%A7%E8%A1%8C%E4%BB%A3%E7%A0%81.png)
+ 
  6. 保存与提交
  7. 老师处理结果  
