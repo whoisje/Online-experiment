@@ -1,0 +1,4 @@
+/* paper/paper.wxss */
+.hide{
+    display: none;
+}

@@ -1,0 +1,12 @@
+<!--login/login.wxml-->
+<van-notify id="van-notify" />
+<van-cell-group>
+    <van-field value="{{ username }}" required clearable label="学号" placeholder="请输入用户名" bind:change="onInputStudentId"/>
+    <van-field value="{{ password }}" type="password" label="密码" icon="question-o" bind:change="onInputPassword" placeholder="请输入密码" required
+        border="{{ false }}" bind:click-icon="onClickIcon" />
+</van-cell-group>
+<van-cell-group>
+        <van-button class="{{state==0?'':'hide'}}" size="large" type="primary" bind:click="login">登录</van-button>
+        <van-button class="{{state==1?'':'hide'}}"loading type="primary" loading-text="登陆中..."  size="large">
+        </van-button>
+</van-cell-group>

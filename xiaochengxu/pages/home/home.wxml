@@ -1,0 +1,58 @@
+<view class='UCenter-bg'>
+  <van-row class="cu-item">
+    <van-col span="24" style="text-align:center">
+      <view class='text-xl'>
+        <open-data class="cu-avatar xl round margin-left" type="userAvatarUrl"></open-data>
+      </view>
+    </van-col>
+    
+  </van-row>
+  <van-row>
+      <van-col span="24" style="text-align:center">
+          <view class='margin-top-sm'>
+              <text>{{studentName}}</text>
+            </view>
+      </van-col>
+  
+  </van-row>
+</view>
+<view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg">
+  <view class="cu-item arrow">
+    <navigator class='content' url='../form/form' hover-class='none'>
+      <image src='/image/logo.png' class='png' mode='aspectFit'></image>
+      <text class='text-grey'>个人信息</text>
+    </navigator>
+  </view>
+  <view class="cu-item arrow">
+    <navigator class='content' url='../about/about' hover-class='none'>
+      <image src='/image/logo.png' class='png' mode='aspectFit'></image>
+      <text class='text-grey'>关于ColorUI组件库</text>
+    </navigator>
+  </view>
+  <view class="cu-item arrow">
+    <navigator class='content' url='../log/log' hover-class='none'>
+      <text class='icon-formfill text-green'></text>
+      <text class='text-grey'>日志</text>
+    </navigator>
+  </view>
+  <view class="cu-item arrow">
+    <view class='content' bindtap="showQrcode">
+      <text class='icon-appreciatefill text-red'></text>
+      <text class='text-grey'>赞赏支持</text>
+    </view>
+  </view>
+  <view class="cu-item arrow">
+    <button class='cu-btn content' open-type='feedback'>
+      <text class='icon-writefill text-cyan'></text>
+      <text class='text-grey'>意见反馈</text>
+    </button>
+  </view>
+  <view class="cu-item arrow">
+    <navigator class='content' url='../test/list' hover-class='none'>
+      <text class='icon-creativefill text-orange'></text>
+      <text class='text-grey'>Bug测试</text>
+    </navigator>
+  </view>
+</view>
+
+<view class='cu-tabbar-height'></view>

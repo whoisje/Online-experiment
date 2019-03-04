@@ -1,0 +1,7 @@
+/* pages/home/home.wxss */
+.avatar{
+    height: 200rpx;
+    width: 200rpx;
+    border-radius: 25px;
+    overflow: hidden;
+}

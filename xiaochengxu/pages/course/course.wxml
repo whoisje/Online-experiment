@@ -1,0 +1,9 @@
+
+<view class='nav-list'>
+  <navigator hover-class='none' url="/pages/experiment/experiment?courseId={{item.courseId}}" class="nav-li bg-{{item.color}}" style='animation: show {{(index+1)*0.2+1}}s 1;-webkit-animation: show {{(index+1)*0.2+1}}s 1;' wx:for="{{courseList}}" wx:key>
+    <view class="nav-title">{{item.courseName}}</view>
+    <view class="nav-name">{{item.courseId}}</view>
+    <text class='icon-{{item.icon}}'></text>
+  </navigator>
+</view>
+<view class='cu-tabbar-height'></view>

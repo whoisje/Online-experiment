@@ -1,0 +1,4 @@
+/* pages/experiment/experiment.wxss */
+.hide{
+    display: none
+}

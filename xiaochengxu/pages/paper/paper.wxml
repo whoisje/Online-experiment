@@ -1,0 +1,45 @@
+<scroll-view scroll-x class="bg-red nav text-center">
+    <view class="cu-item {{index==TabCur?'text-white cur':''}}" wx:for="{{3}}" wx:key bindtap='tabSelect'
+        data-id="{{index}}">
+        {{index==0?"实验内容":index==1?"实验代码":2?"实验结论":""}}
+    </view>
+</scroll-view>
+<view class='margin-xl bg-white padding-xl radius shadow-lg {{TabCur!=0?"hide":""}}'>
+    <view class='text-center margin-bottom text-lg  text-grey'>实验目的</view>
+    <view class='margin-top-sm'>该项目是我利用ColorUI组件库为人工智能在线实验开发的小程序。</view>
+    <view class='text-center margin-bottom text-lg  text-grey'>实验环境</view>
+    <view class='margin-top-sm'>该项目是我利用ColorUI组件库为人工智能在线实验开发的小程序。</view>
+    <view class='text-center margin-bottom text-lg  text-grey'>实验问题</view>
+    <view class='margin-top-sm'>该项目是我利用ColorUI组件库为人工智能在线实验开发的小程序。</view>
+</view>
+<view class="margin-xl bg-white padding-xl radius shadow-lg {{TabCur!=1?'hide':''}}">
+    <view class='text-center margin-bottom text-lg  text-grey'>实验代码</view>
+    <van-cell-group>
+        <van-field value="{{HasFinished.code}}" class="{{HasFinished.status==2?'':'hide'}}" disabled type="textarea" placeholder="请在此处输入代码"
+            autosize border="{{ false }}" bind:change="onCodeInput" />
+        <van-button size="large" type="primary" class="{{HasFinished.status==2?'':'hide'}}" disabled bind:click="executeCode">点击运行代码</van-button>
+        <van-cell-group>
+            <van-field value="{{HasFinished.codeResult}}" label="代码运行结果" type="textarea" autosize disabled
+                border="{{ false }}" />
+        </van-cell-group>
+    </van-cell-group>
+</view>
+<view class="margin-xl bg-white padding-xl radius shadow-lg {{TabCur!=2?'hide':''}}">
+    <view class='text-center margin-bottom text-lg  text-grey'>心得体会</view>
+    <van-field value="{{HasFinished.feeling}}" class="{{HasFinished.status==2?'':'hide'}}" disabled type="textarea" placeholder="请在此处输入心得体会"
+            autosize border="{{ false }}" bind:change="onFeelingInput" />
+
+</view>
+<van-row gutter="20" class="{{TabCur!=2?'hide':''}}">
+    <van-col span="12">
+        <van-button class="{{HasFinished.status==2?'hide':''}}" size="large" type="primary" bind:click="login">保存
+        </van-button>
+    </van-col>
+    <van-col span="12">
+        <van-button class="{{HasFinished.status==2?'hide':''}}" type="primary" loading-text="登陆中..." size="large">提交
+        </van-button>
+    </van-col>
+</van-row>
+<van-row>
+    <van-button class="{{HasFinished.status==2?'':'hide'}}" disabled size="large" type="primary">已提交</van-button>
+</van-row>
