@@ -36,7 +36,7 @@
  2. 指定班级所有学生实验。
  3. 检索指定班级和指定学生。
  4. 批改实验并打分
-#### 详细设计
-[小程序设计]()
-[服务端设计]()
+#### 详细设计web
+[小程序设计](https://github.com/whoisje/Online-experiment/blob/master/xiaochengxu/小程序设计.md)
+[服务端设计](https://github.com/whoisje/Online-experiment/blob/master/web/服务端设计.md)
  
