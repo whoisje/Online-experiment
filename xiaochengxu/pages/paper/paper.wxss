@@ -2,3 +2,9 @@
 .hide{
     display: none;
 }
+
+
+.hei{
+    height:100px;
+    width:100px;
+}

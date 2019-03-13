@@ -4,7 +4,8 @@
     "pages/home/home",
     "pages/course/course",
     "pages/login/login",
-    "pages/paper/paper"
+    "pages/paper/paper",
+    "pages/experiment/experiment"
   ],
   "tabBar": {
     "custom": true,
@@ -13,24 +14,24 @@
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [
-      {
-        "pagePath": "pages/index/index",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png",
-        "text": "首页"
-      },
-      {
+     {
+      "pagePath": "pages/index/index",
+      "iconPath": "image/detail.png",
+      "selectedIconPath": "image/basics_cur.png",
+     "text": "首页"
+    },
+    {
         "pagePath": "pages/course/course",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API_HL.png",
-        "text": "课程"
-      },
-      {
+     " iconPath": "image/component.png",
+       " selectedIconPath": "image/component_cur.png",
+      "text": "课程"
+    },
+    {
         "pagePath": "pages/home/home",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API_HL.png",
-        "text": "我的"
-      }
+        "iconPath": "image/about.png",
+        "selectedIconPath": "image/about_cur.png",
+       " text": "我的"
+    }
     ]
   },
   "window": {
@@ -45,6 +46,9 @@
     "van-field": "/dist/field/index",
     "van-button": "/dist/button/index",
     "van-notify": "/dist/notify/index",
-    "van-toast": "/dist/toast/index"
+    "van-toast": "/dist/toast/index",
+    "van-dialog": "/dist/dialog/index",
+    "van-steps": "/dist/steps/index",
+    "van-panel": "/dist/panel/index"
   }
 }

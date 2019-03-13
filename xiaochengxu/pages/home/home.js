@@ -7,7 +7,6 @@ Component({
   
   pageLifetimes: {
     show() {
-      app.checkState();
       if (typeof this.getTabBar === 'function' &&
         this.getTabBar()) {
         this.getTabBar().setData({

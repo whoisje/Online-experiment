@@ -1,6 +1,7 @@
 // login/login.js
 import Notify from '../../dist/notify/notify';
 var app = getApp();
+var url = app.globalData.url;
 Page({
 
   /**
@@ -52,24 +53,37 @@ Page({
     })
     var that = this;
     wx.request({
-      url: 'https://www.myweb.com:8080/oe/loginByPassword',
-      data: {  "studentId":this.data.studentId,"password":this.data.password },
-      method: 'POST', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
+      url: url+'oe/login',
+      method: 'GET', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
+      data: { "userId": that.data.studentId, "password": that.data.password },
       // header: {}, // 设置请求的 header
       success: function (res) {
         // success
-        if(res.ret==1){
-          app.globalData.student=app.parseResult(res);
+        console.log(res.data.ret)
+        if(res.data.ret==1){
+          app.globalData.header.Cookie = "JSESSIONID=" + res.data.body.studentId;
+          app.globalData.studentId = res.data.body.studentId;
+          wx.setStorageSync('userId', that.data.studentId);
+          wx.setStorageSync('password',that.data.password)
           wx.showToast({
             title:"欢迎回来",
             duration:2000,
             icon:"success"
           })
           wx.navigateBack({
-            delta: 1 // 回退前 delta(默认为1) 页面
-      
+            delta: 1, // 回退前 delta(默认为1) 页面
           })
+        }else{
+          that.setData({
+            state:0
+          })
+          Notify("用户名或密码错误！");
         }
+      },fail:function(){
+        that.setData({
+          state:0
+        })
+        Notify("请求失败！");
       }
     })
   }

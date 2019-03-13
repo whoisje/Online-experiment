@@ -1,4 +1,5 @@
 // pages/experiment/experiment.js
+import Toast from '../../dist/toast/toast';
 var app = getApp();
 var header = app.globalData.header;
 var url = app.globalData.url;
@@ -10,12 +11,8 @@ Page({
   data: {
     courseId:"",
     experimentList:[
-      {experimentId:"11001",experimentName:"实验一：猴子摘香蕉",color: 'purple'},
-      {experimentId:"11002",experimentName:"实验二：猴子摘香蕉",color: 'red'}
     ],
     status:[
-      {experimentId:"11001",status:1},
-      {experimentId:"11002",status:2},
     ]
   },
 
@@ -37,18 +34,19 @@ Page({
         url: url + "oe/getExperimentList",
         data: { 'courseId': courseId },
         method: 'GET', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
-        header: {header}, // 设置请求的 header
+        header: { 'Cookie':header.Cookie }, // 设置请求的 header
         success: function (res) {
           // success
-          if (res.ret == 1) {
+          if (res.data.ret==1) {
             that.setData({
-              //experimentList=app.parseResult(res)
+              experimentList:res.data.body
             });
-            let experimentIdList = new Array(experimentList.length);
-            for(let i=0;i<experimentList.length;i++){
-              experimentIdList[i]=experimentList[i].experimentId;
+            var experiment = that.data.experimentList;
+            let experimentIdList = new Array(experiment.length);
+            for(let i=0;i<experiment.length;i++){
+              experimentIdList[i]=experiment[i].experimentId;
             }
-            this.getExperimentStatus(experimentIdList)
+            that.getExperimentStatus(experimentIdList)
           } else {
             Toast("获取数据失败，请下拉刷新重试！")
           }
@@ -58,16 +56,17 @@ Page({
   getExperimentStatus:function(experimentIdList){
     var that = this;
     wx.request({
-      url: url + "oe/getExperimentStatus",
+      url: url + "oe/selectStatusList",
       data: { 'experimentIdList': experimentIdList },
       method: 'POST', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
-      header: {header}, // 设置请求的 header
+      header: {'Cookie':header.Cookie}, // 设置请求的 header
       success: function (res) {
         // success
-        if (res.ret == 1) {
+        if (res.data.ret == 1) {
           that.setData({
-            status:app.parseResult(res)
+            status:res.data.body
           });
+          console.log(that.data)
         } else {
           Toast("获取数据失败，请下拉刷新重试！")
         }

@@ -1,15 +1,15 @@
 <!--pages/experiment/experiment.wxml-->
 <view class='nav-list'>
+ 
   <navigator hover-class='none' url="/pages/paper/paper?experimentId={{item.experimentId}}"
-    class="nav-li bg-{{item.color}}"
+    class="nav-li2 bg-brown}"
     style='animation: show {{(index+1)*0.2+1}}s 1;-webkit-animation: show {{(index+1)*0.2+1}}s 1;'
     wx:for="{{experimentList}}" wx:key>
-    <view class="nav-title">{{item.experimentName}}</view>
+    <view class="nav-title">{{item.experimentTitle}}</view>
     <view wx:for="{{status}}" wx:key="{{status.status}}" wx:for-item="item2">
       <view wx:if="{{item2.experimentId==item.experimentId}}" class="nav-title">
-        {{item2.status==0?"未做":item2.status==1?"已保存":item2.status==0?"已提交":"已批改"}}</view>
+        {{item2.status==0?"未做":item2.status==1?"已保存":item2.status==2?"已提交":"已批改"}}</view>
     </view>
-    <text class='icon-{{item.icon}}'></text>
   </navigator>
 </view>
 <view class='cu-tabbar-height'></view>
