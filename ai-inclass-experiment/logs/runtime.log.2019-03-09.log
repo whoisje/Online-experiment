@@ -1,0 +1,341 @@
+2019-03-09 10:22:01.760 [main] INFO  com.jack.aiweb.AiWebApplication - Starting AiWebApplication on PC-WANGWJ8 with PID 2076 (D:\work\ai-inclass-experiment\oe-web\target\classes started by wangwj in D:\work\ai-inclass-experiment)
+2019-03-09 10:22:01.764 [main] INFO  com.jack.aiweb.AiWebApplication - No active profile set, falling back to default profiles: default
+2019-03-09 10:22:02.917 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-03-09 10:22:02.927 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-09 10:22:02.935 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-09 10:22:02.935 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-09 10:22:02.940 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\deploy\java8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\wangwj\software\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Go\bin;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;D:\deploy\java8\bin;D:\deploy\java8\jre\bin;;C:\Users\wangwj\software\Fiddler;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;C:\Users\wangwj\go\bin;C:\Users\wangwj\software\ VS Code\bin;.]
+2019-03-09 10:22:03.022 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-09 10:22:03.023 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1196 ms
+2019-03-09 10:22:03.239 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-03-09 10:22:03.466 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ExpEntity.
+2019-03-09 10:22:03.566 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.HasFinishedEntity.
+2019-03-09 10:22:03.592 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.StuCourseEntity.
+2019-03-09 10:22:03.612 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.CourseEntity.
+2019-03-09 10:22:03.636 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserEntity.
+2019-03-09 10:22:03.656 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserInfoEntity.
+2019-03-09 10:22:03.676 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ClassEntity.
+2019-03-09 10:22:03.871 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-09 10:22:04.056 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-03-09 10:22:04.065 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-09 10:22:04.065 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+2019-03-09 10:22:04.066 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-03-09 10:22:04.066 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-09 10:22:04.066 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-09 10:22:04.066 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+2019-03-09 10:22:04.067 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5f726750
+2019-03-09 10:22:04.110 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2019-03-09 10:22:04.110 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-03-09 10:22:04.116 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-09 10:22:04.124 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-09 10:22:04.140 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-09 10:22:04.143 [main] INFO  com.jack.aiweb.AiWebApplication - Started AiWebApplication in 2.888 seconds (JVM running for 3.863)
+2019-03-09 10:23:01.457 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-09 10:23:01.458 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-09 10:23:01.464 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-03-09 10:23:01.659 [http-nio-8080-exec-1] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:175
+2019-03-09 10:25:25.107 [main] INFO  com.jack.aiweb.AiWebApplication - Starting AiWebApplication on PC-WANGWJ8 with PID 6168 (D:\work\ai-inclass-experiment\oe-web\target\classes started by wangwj in D:\work\ai-inclass-experiment)
+2019-03-09 10:25:25.112 [main] INFO  com.jack.aiweb.AiWebApplication - No active profile set, falling back to default profiles: default
+2019-03-09 10:25:26.263 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-03-09 10:25:26.276 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-09 10:25:26.283 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-09 10:25:26.283 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-09 10:25:26.289 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\deploy\java8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\wangwj\software\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Go\bin;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;D:\deploy\java8\bin;D:\deploy\java8\jre\bin;;C:\Users\wangwj\software\Fiddler;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;C:\Users\wangwj\go\bin;C:\Users\wangwj\software\ VS Code\bin;.]
+2019-03-09 10:25:26.372 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-09 10:25:26.372 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1203 ms
+2019-03-09 10:25:26.579 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-03-09 10:25:26.809 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ExpEntity.
+2019-03-09 10:25:26.906 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.HasFinishedEntity.
+2019-03-09 10:25:26.931 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.StuCourseEntity.
+2019-03-09 10:25:26.949 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.CourseEntity.
+2019-03-09 10:25:26.972 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserEntity.
+2019-03-09 10:25:26.992 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserInfoEntity.
+2019-03-09 10:25:27.011 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ClassEntity.
+2019-03-09 10:25:27.208 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-09 10:25:27.396 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-03-09 10:25:27.406 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-09 10:25:27.406 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+2019-03-09 10:25:27.406 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-03-09 10:25:27.407 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-09 10:25:27.407 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-09 10:25:27.407 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+2019-03-09 10:25:27.407 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@50b46e24
+2019-03-09 10:25:27.450 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2019-03-09 10:25:27.450 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-03-09 10:25:27.457 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-09 10:25:27.465 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-09 10:25:27.480 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-09 10:25:27.484 [main] INFO  com.jack.aiweb.AiWebApplication - Started AiWebApplication in 2.878 seconds (JVM running for 4.027)
+2019-03-09 10:25:46.801 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-09 10:25:46.801 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-09 10:25:46.808 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-03-09 10:25:46.993 [http-nio-8080-exec-1] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:167
+2019-03-09 10:34:26.775 [http-nio-8080-exec-4] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:28
+2019-03-09 10:34:53.535 [http-nio-8080-exec-2] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/getCourseList&ali_type:null&ali_method:GET&ali_param_data:{}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:27
+2019-03-09 10:34:55.465 [http-nio-8080-exec-5] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/getExperimentList&ali_type:null&ali_method:GET&ali_param_data:{"courseId":["10001"]}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:17
+2019-03-09 10:34:55.530 [http-nio-8080-exec-6] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/selectStatusList&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:54
+2019-03-09 10:35:08.065 [http-nio-8080-exec-7] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/getExperimentDetail&ali_type:null&ali_method:GET&ali_param_data:{"experimentId":["100001"]}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:8
+2019-03-09 10:35:08.080 [http-nio-8080-exec-8] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/selectHasFinished&ali_type:null&ali_method:GET&ali_param_data:{"experimentId":["100001"]}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:5
+2019-03-09 10:35:20.762 [http-nio-8080-exec-9] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/getExperimentList&ali_type:null&ali_method:GET&ali_param_data:{"courseId":["10001"]}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:3
+2019-03-09 10:35:20.773 [http-nio-8080-exec-10] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/selectStatusList&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:3
+2019-03-09 10:35:54.114 [http-nio-8080-exec-1] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/getExperimentDetail&ali_type:null&ali_method:GET&ali_param_data:{"experimentId":["100002"]}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:5
+2019-03-09 10:35:54.128 [http-nio-8080-exec-3] ERROR com.jack.aiservice.impl.service.ServiceExcuterImpl - 获取已完成内容失败！
+2019-03-09 10:35:54.129 [http-nio-8080-exec-3] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/selectHasFinished&ali_type:null&ali_method:GET&ali_param_data:{"experimentId":["100002"]}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:4
+2019-03-09 10:36:01.327 [http-nio-8080-exec-4] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/getExperimentList&ali_type:null&ali_method:GET&ali_param_data:{"courseId":["10001"]}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:3
+2019-03-09 10:36:01.342 [http-nio-8080-exec-2] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/selectStatusList&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:5
+2019-03-09 10:39:39.242 [http-nio-8080-exec-6] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:10
+2019-03-09 11:05:41.705 [http-nio-8080-exec-8] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:10
+2019-03-09 13:10:44.123 [http-nio-8080-exec-10] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/getCourseList&ali_type:null&ali_method:GET&ali_param_data:{}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:58
+2019-03-09 13:10:45.136 [http-nio-8080-exec-1] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/getExperimentList&ali_type:null&ali_method:GET&ali_param_data:{"courseId":["10001"]}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:7
+2019-03-09 13:10:45.166 [http-nio-8080-exec-3] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/selectStatusList&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:14
+2019-03-09 13:10:46.669 [http-nio-8080-exec-4] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/getExperimentDetail&ali_type:null&ali_method:GET&ali_param_data:{"experimentId":["100001"]}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:6
+2019-03-09 13:10:46.691 [http-nio-8080-exec-2] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/selectHasFinished&ali_type:null&ali_method:GET&ali_param_data:{"experimentId":["100001"]}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:6
+2019-03-09 13:11:25.315 [http-nio-8080-exec-5] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:11
+2019-03-09 13:11:28.280 [http-nio-8080-exec-6] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/getCourseList&ali_type:null&ali_method:GET&ali_param_data:{}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:6
+2019-03-09 13:11:29.849 [http-nio-8080-exec-7] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/getExperimentList&ali_type:null&ali_method:GET&ali_param_data:{"courseId":["10001"]}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:5
+2019-03-09 13:11:29.874 [http-nio-8080-exec-8] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/selectStatusList&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:10
+2019-03-09 13:11:31.563 [http-nio-8080-exec-9] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/getExperimentDetail&ali_type:null&ali_method:GET&ali_param_data:{"experimentId":["100001"]}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:4
+2019-03-09 13:11:31.579 [http-nio-8080-exec-10] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/selectHasFinished&ali_type:null&ali_method:GET&ali_param_data:{"experimentId":["100001"]}&ali_session_id:2015211717&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:4
+2019-03-09 13:33:11.995 [http-nio-8080-exec-3] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:14
+2019-03-09 13:33:51.908 [http-nio-8080-exec-4] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:20
+2019-03-09 13:34:19.359 [http-nio-8080-exec-2] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:4
+2019-03-09 13:36:49.684 [main] INFO  com.jack.aiweb.AiWebApplication - Starting AiWebApplication on PC-WANGWJ8 with PID 16836 (D:\work\ai-inclass-experiment\oe-web\target\classes started by wangwj in D:\work\ai-inclass-experiment)
+2019-03-09 13:36:49.693 [main] INFO  com.jack.aiweb.AiWebApplication - No active profile set, falling back to default profiles: default
+2019-03-09 13:36:52.125 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-03-09 13:36:52.151 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-09 13:36:52.173 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-09 13:36:52.173 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-09 13:36:52.186 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\deploy\java8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\wangwj\software\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Go\bin;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;D:\deploy\java8\bin;D:\deploy\java8\jre\bin;;C:\Users\wangwj\software\Fiddler;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;C:\Users\wangwj\go\bin;C:\Users\wangwj\software\ VS Code\bin;.]
+2019-03-09 13:36:52.358 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-09 13:36:52.358 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2534 ms
+2019-03-09 13:36:52.838 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-03-09 13:36:53.328 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ExpEntity.
+2019-03-09 13:36:53.564 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.HasFinishedEntity.
+2019-03-09 13:36:53.618 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.StuCourseEntity.
+2019-03-09 13:36:53.658 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.CourseEntity.
+2019-03-09 13:36:53.717 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserEntity.
+2019-03-09 13:36:53.762 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserInfoEntity.
+2019-03-09 13:36:53.811 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ClassEntity.
+2019-03-09 13:36:54.232 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-09 13:36:54.645 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-03-09 13:36:54.666 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-09 13:36:54.666 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+2019-03-09 13:36:54.666 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-03-09 13:36:54.671 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-09 13:36:54.671 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-09 13:36:54.671 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+2019-03-09 13:36:54.671 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5a566922
+2019-03-09 13:36:54.795 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2019-03-09 13:36:54.795 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-03-09 13:36:54.810 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-09 13:36:54.824 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-09 13:36:54.862 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-09 13:36:54.870 [main] INFO  com.jack.aiweb.AiWebApplication - Started AiWebApplication in 6.105 seconds (JVM running for 7.837)
+2019-03-09 14:10:10.068 [main] INFO  com.jack.aiweb.AiWebApplication - Starting AiWebApplication on PC-WANGWJ8 with PID 3296 (D:\work\ai-inclass-experiment\oe-web\target\classes started by wangwj in D:\work\ai-inclass-experiment)
+2019-03-09 14:10:10.074 [main] INFO  com.jack.aiweb.AiWebApplication - No active profile set, falling back to default profiles: default
+2019-03-09 14:10:11.765 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-03-09 14:10:11.782 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-09 14:10:11.796 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-09 14:10:11.797 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-09 14:10:11.807 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\deploy\java8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\wangwj\software\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Go\bin;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;D:\deploy\java8\bin;D:\deploy\java8\jre\bin;;C:\Users\wangwj\software\Fiddler;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;C:\Users\wangwj\go\bin;C:\Users\wangwj\software\ VS Code\bin;.]
+2019-03-09 14:10:11.923 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-09 14:10:11.924 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1792 ms
+2019-03-09 14:10:12.192 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-03-09 14:10:12.453 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ExpEntity.
+2019-03-09 14:10:12.568 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.HasFinishedEntity.
+2019-03-09 14:10:12.600 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.StuCourseEntity.
+2019-03-09 14:10:12.621 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.CourseEntity.
+2019-03-09 14:10:12.649 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserEntity.
+2019-03-09 14:10:12.677 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserInfoEntity.
+2019-03-09 14:10:12.708 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ClassEntity.
+2019-03-09 14:10:13.171 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-09 14:10:13.523 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-03-09 14:10:13.546 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-09 14:10:13.547 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+2019-03-09 14:10:13.548 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-03-09 14:10:13.549 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-09 14:10:13.550 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-09 14:10:13.550 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+2019-03-09 14:10:13.550 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@38883a31
+2019-03-09 14:10:13.621 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2019-03-09 14:10:13.621 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-03-09 14:10:13.629 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-09 14:10:13.641 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-09 14:10:13.660 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-09 14:10:13.664 [main] INFO  com.jack.aiweb.AiWebApplication - Started AiWebApplication in 4.258 seconds (JVM running for 5.508)
+2019-03-09 14:12:53.018 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-09 14:12:53.022 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-09 14:12:53.036 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-03-09 14:12:53.477 [http-nio-8080-exec-1] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:396
+2019-03-09 14:17:14.038 [http-nio-8080-exec-4] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:14
+2019-03-09 14:17:15.140 [http-nio-8080-exec-5] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:10
+2019-03-09 14:17:15.901 [http-nio-8080-exec-3] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:7
+2019-03-09 14:17:47.441 [http-nio-8080-exec-6] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:7
+2019-03-09 14:17:48.181 [http-nio-8080-exec-7] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:7
+2019-03-09 14:17:48.834 [http-nio-8080-exec-9] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:5
+2019-03-09 14:17:49.410 [http-nio-8080-exec-8] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:GET&ali_param_data:{"userId":["2015211717"],"password":["wangwenjie"]}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:10
+2019-03-09 14:43:29.579 [main] INFO  com.jack.aiweb.AiWebApplication - Starting AiWebApplication on PC-WANGWJ8 with PID 16928 (D:\work\ai-inclass-experiment\oe-web\target\classes started by wangwj in D:\work\ai-inclass-experiment)
+2019-03-09 14:43:29.584 [main] INFO  com.jack.aiweb.AiWebApplication - No active profile set, falling back to default profiles: default
+2019-03-09 14:43:31.069 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-03-09 14:43:31.086 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-09 14:43:31.096 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-09 14:43:31.096 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-09 14:43:31.104 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\deploy\java8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\wangwj\software\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Go\bin;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;D:\deploy\java8\bin;D:\deploy\java8\jre\bin;;C:\Users\wangwj\software\Fiddler;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;C:\Users\wangwj\go\bin;C:\Users\wangwj\software\ VS Code\bin;.]
+2019-03-09 14:43:31.214 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-09 14:43:31.215 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1552 ms
+2019-03-09 14:43:31.466 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-03-09 14:43:31.719 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ExpEntity.
+2019-03-09 14:43:31.834 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.HasFinishedEntity.
+2019-03-09 14:43:31.865 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.StuCourseEntity.
+2019-03-09 14:43:31.886 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.CourseEntity.
+2019-03-09 14:43:31.915 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserEntity.
+2019-03-09 14:43:31.940 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserInfoEntity.
+2019-03-09 14:43:31.963 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ClassEntity.
+2019-03-09 14:43:32.189 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-09 14:43:32.403 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-03-09 14:43:32.413 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-09 14:43:32.414 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+2019-03-09 14:43:32.415 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-03-09 14:43:32.415 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-09 14:43:32.416 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-09 14:43:32.416 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+2019-03-09 14:43:32.416 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@49edcb30
+2019-03-09 14:43:32.466 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2019-03-09 14:43:32.466 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-03-09 14:43:32.473 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-09 14:43:32.483 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-09 14:43:32.500 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-09 14:43:32.503 [main] INFO  com.jack.aiweb.AiWebApplication - Started AiWebApplication in 3.57 seconds (JVM running for 4.968)
+2019-03-09 14:48:07.802 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-09 14:48:07.802 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-09 14:48:07.825 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2019-03-09 14:48:08.434 [http-nio-8080-exec-3] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri://oe/login&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:548
+2019-03-09 14:49:18.006 [http-nio-8080-exec-2] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri://oe/login&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:11
+2019-03-09 14:50:16.308 [http-nio-8080-exec-4] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:127.0.0.1&ali_uri://oe/login&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:8
+2019-03-09 14:51:33.521 [main] INFO  com.jack.aiweb.AiWebApplication - Starting AiWebApplication on PC-WANGWJ8 with PID 7732 (D:\work\ai-inclass-experiment\oe-web\target\classes started by wangwj in D:\work\ai-inclass-experiment)
+2019-03-09 14:51:33.527 [main] INFO  com.jack.aiweb.AiWebApplication - No active profile set, falling back to default profiles: default
+2019-03-09 14:51:34.851 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-03-09 14:51:34.862 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-09 14:51:34.871 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-09 14:51:34.871 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-09 14:51:34.877 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\deploy\java8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\wangwj\software\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Go\bin;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;D:\deploy\java8\bin;D:\deploy\java8\jre\bin;;C:\Users\wangwj\software\Fiddler;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;C:\Users\wangwj\go\bin;C:\Users\wangwj\software\ VS Code\bin;.]
+2019-03-09 14:51:34.972 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-09 14:51:34.973 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1379 ms
+2019-03-09 14:51:35.219 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-03-09 14:51:35.472 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ExpEntity.
+2019-03-09 14:51:35.582 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.HasFinishedEntity.
+2019-03-09 14:51:35.611 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.StuCourseEntity.
+2019-03-09 14:51:35.632 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.CourseEntity.
+2019-03-09 14:51:35.660 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserEntity.
+2019-03-09 14:51:35.686 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserInfoEntity.
+2019-03-09 14:51:35.708 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ClassEntity.
+2019-03-09 14:51:35.940 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-09 14:51:36.146 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-03-09 14:51:36.157 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-09 14:51:36.157 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+2019-03-09 14:51:36.158 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-03-09 14:51:36.160 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-09 14:51:36.160 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-09 14:51:36.160 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+2019-03-09 14:51:36.160 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6acffb2d
+2019-03-09 14:51:36.211 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2019-03-09 14:51:36.212 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-03-09 14:51:36.218 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-09 14:51:36.228 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-09 14:51:36.246 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-09 14:51:36.249 [main] INFO  com.jack.aiweb.AiWebApplication - Started AiWebApplication in 3.388 seconds (JVM running for 4.728)
+2019-03-09 15:29:29.174 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-09 15:29:29.180 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-09 15:29:29.209 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 29 ms
+2019-03-09 15:29:29.686 [http-nio-8080-exec-1] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:424
+2019-03-09 15:33:12.298 [http-nio-8080-exec-4] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:205243
+2019-03-09 15:33:12.301 [http-nio-8080-exec-5] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:28176
+2019-03-09 15:33:16.890 [http-nio-8080-exec-2] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:18
+2019-03-09 15:33:36.548 [http-nio-8080-exec-6] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:6
+2019-03-09 15:34:28.112 [http-nio-8080-exec-3] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:5
+2019-03-09 15:35:09.155 [http-nio-8080-exec-7] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:6
+2019-03-09 15:37:32.407 [main] INFO  com.jack.aiweb.AiWebApplication - Starting AiWebApplication on PC-WANGWJ8 with PID 16952 (D:\work\ai-inclass-experiment\oe-web\target\classes started by wangwj in D:\work\ai-inclass-experiment)
+2019-03-09 15:37:32.413 [main] INFO  com.jack.aiweb.AiWebApplication - No active profile set, falling back to default profiles: default
+2019-03-09 15:37:33.743 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-03-09 15:37:33.755 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-09 15:37:33.765 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-09 15:37:33.765 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-09 15:37:33.771 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\deploy\java8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\wangwj\software\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Go\bin;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;D:\deploy\java8\bin;D:\deploy\java8\jre\bin;;C:\Users\wangwj\software\Fiddler;C:\Users\wangwj\AppData\Local\Microsoft\WindowsApps;C:\Users\wangwj\go\bin;C:\Users\wangwj\software\ VS Code\bin;.]
+2019-03-09 15:37:33.881 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-09 15:37:33.881 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1396 ms
+2019-03-09 15:37:34.127 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-03-09 15:37:34.380 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ExpEntity.
+2019-03-09 15:37:34.495 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.HasFinishedEntity.
+2019-03-09 15:37:34.527 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.StuCourseEntity.
+2019-03-09 15:37:34.548 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.CourseEntity.
+2019-03-09 15:37:34.580 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserEntity.
+2019-03-09 15:37:34.613 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.UserInfoEntity.
+2019-03-09 15:37:34.638 [main] WARN  c.b.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.jack.aidao.entity.ClassEntity.
+2019-03-09 15:37:34.883 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-09 15:37:35.119 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-03-09 15:37:35.134 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-09 15:37:35.134 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+2019-03-09 15:37:35.135 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-03-09 15:37:35.136 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-09 15:37:35.136 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-09 15:37:35.136 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+2019-03-09 15:37:35.136 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@73e776b7
+2019-03-09 15:37:35.194 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2019-03-09 15:37:35.195 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-03-09 15:37:35.201 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-09 15:37:35.213 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-09 15:37:35.232 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-09 15:37:35.236 [main] INFO  com.jack.aiweb.AiWebApplication - Started AiWebApplication in 3.469 seconds (JVM running for 4.768)
+2019-03-09 15:37:39.229 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-09 15:37:39.229 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-09 15:37:39.236 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-03-09 15:37:39.481 [http-nio-8080-exec-1] INFO  com.jack.aiweb.intercpter.LoggerInterceptor - ali_id:null&ali_client_ip:0:0:0:0:0:0:0:1&ali_uri:/oe/login&ali_type:null&ali_method:POST&ali_param_data:{}&ali_session_id:null&ali_return_data:null&ali_http_status_code:200&ali_time_consuming:223

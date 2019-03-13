@@ -1,0 +1,4 @@
+com\jack\aiapi\facade\LoginFacade.class
+com\jack\aiapi\facade\InfoQueryFacade.class
+com\jack\aiapi\facade\PythonExecuterFacade.class
+com\jack\aiapi\exception\BaseException.class

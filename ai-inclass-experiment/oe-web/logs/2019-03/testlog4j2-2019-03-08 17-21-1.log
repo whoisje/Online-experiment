@@ -1,0 +1,41 @@
+2019-03-08 17:21:04 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]]-[INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-08 17:21:04 [org.springframework.web.servlet.DispatcherServlet]-[INFO] - Initializing Servlet 'dispatcherServlet'
+2019-03-08 17:21:04 [org.springframework.web.servlet.DispatcherServlet]-[INFO] - Completed initialization in 17 ms
+2019-03-08 17:21:04 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+params:org.apache.catalina.connector.RequestFacade@7bcc70e2
+className：class com.jack.aiweb.controller.InfoQueryController
+method:public com.jack.aicore.beans.ApiResponse com.jack.aiweb.controller.InfoQueryController.selectStatusList(javax.servlet.http.HttpServletRequest)
+请求地址：/getCourseList
+2019-03-08 17:21:04 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+执行结果：ApiResponse(ret=1, message=success, body=[CourseEntity(courseId=10001, courseName=人工智能, courseClassification=1), CourseEntity(courseId=10002, courseName=机器学习, courseClassification=1), CourseEntity(courseId=10003, courseName=计算机组成原理, courseClassification=1)])
+2019-03-08 17:21:07 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+params:10001org.apache.catalina.connector.RequestFacade@7bcc70e2
+className：class com.jack.aiweb.controller.InfoQueryController
+method:public com.jack.aicore.beans.ApiResponse com.jack.aiweb.controller.InfoQueryController.getClassInfo(java.lang.String,javax.servlet.http.HttpServletRequest)
+请求地址：/getExperimentList
+2019-03-08 17:21:07 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+执行结果：ApiResponse(ret=1, message=success, body=[ExpEntity(experimentId=100001, experimentTitle=猴子摘香蕉问题的python编程实现, courseId=null, experimentEnvironment=null, experimentQuestion=null, expectResult=null, experimentPurpose=null)])
+2019-03-08 17:21:07 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+params:{experimentIdList=[100001]}org.apache.catalina.connector.RequestFacade@7bcc70e2
+className：class com.jack.aiweb.controller.InfoQueryController
+method:public com.jack.aicore.beans.ApiResponse com.jack.aiweb.controller.InfoQueryController.selectStatusList(java.util.Map,javax.servlet.http.HttpServletRequest)
+请求地址：/selectStatusList
+2019-03-08 17:21:07 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+执行结果：ApiResponse(ret=1, message=success, body=[HasFinishedEntity(studentId=null, experimentId=100001, code=null, feeling=null, codeResult=null, runStatus=0, status=2)])
+2019-03-08 17:21:10 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+params:100001org.apache.catalina.connector.RequestFacade@7bcc70e2
+className：class com.jack.aiweb.controller.InfoQueryController
+method:public com.jack.aicore.beans.ApiResponse com.jack.aiweb.controller.InfoQueryController.getExpDetail(java.lang.String,javax.servlet.http.HttpServletRequest)
+请求地址：/getExperimentDetail
+2019-03-08 17:21:10 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+执行结果：ApiResponse(ret=1, message=success, body=ExpEntity(experimentId=100001, experimentTitle=猴子摘香蕉问题的python编程实现, courseId=10001, experimentEnvironment=python开发环境, experimentQuestion=房子里有一只猴子（即机器人），位于a处。在c处上方的天花板上有一串香蕉，猴子想吃，但摘不到。房间的b处还有一个箱子，如果猴子站到箱子上，就可以摸着天花板。如图1所示，对于上述问题，可以通过谓词逻辑表示法来描述知识。要求通过VC语言编程实现猴子摘香蕉问题的求解过程。
+, expectResult=(1,2),(2,2), experimentPurpose=（1）熟悉谓词逻辑表示法；
+（2）掌握人工智能谓词逻辑中的经典例子——猴子摘香蕉问题的编程实现。))
+2019-03-08 17:21:10 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+params:100001org.apache.catalina.connector.RequestFacade@7bcc70e2
+className：class com.jack.aiweb.controller.InfoQueryController
+method:public com.jack.aicore.beans.ApiResponse com.jack.aiweb.controller.InfoQueryController.selectHasFinished(java.lang.String,javax.servlet.http.HttpServletRequest)
+请求地址：/selectHasFinished
+2019-03-08 17:21:10 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+执行结果：ApiResponse(ret=1, message=success, body=HasFinishedEntity(studentId=2015211717, experimentId=100001, code=print("hello"), feeling=test test ree, codeResult=hello
+, runStatus=0, status=2))

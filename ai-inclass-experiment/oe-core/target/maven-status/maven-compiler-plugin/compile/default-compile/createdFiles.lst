@@ -1,0 +1,11 @@
+com\jack\aicore\beans\ApiResponse.class
+com\jack\aicore\beans\LoginResult.class
+com\jack\aicore\utils\HttpUtils.class
+com\jack\aicore\utils\CheckParams.class
+com\jack\aicore\constants\Status.class
+com\jack\aicore\aop\anno\Record.class
+com\jack\aicore\beans\BaseResult.class
+com\jack\aicore\aop\aspect\MethodCallRecord.class
+com\jack\aicore\beans\RequestLoggerEntity.class
+com\jack\aicore\utils\DecryptUserInfo.class
+com\jack\aicore\utils\ApiResponseBuilder.class

@@ -1,0 +1,14 @@
+com\jack\aiservice\service\LoginService.class
+com\jack\aiservice\Command.class
+com\jack\aiservice\impl\service\InfoQueryServiceImpl.class
+com\jack\aiservice\impl\facade\LoginFacadeImpl.class
+com\jack\aiservice\impl\service\ServiceExcuterImpl.class
+com\jack\aiservice\util\Entity2Dto.class
+com\jack\aiservice\service\PythonExecuter.class
+com\jack\aiservice\ServiceExcuter.class
+com\jack\aiservice\impl\facade\InfoQueryFacadeImpl.class
+com\jack\aiservice\impl\service\PythonExecuterImpl.class
+com\jack\aiservice\impl\service\Test.class
+com\jack\aiservice\impl\facade\PythonExecuterFacadeImpl.class
+com\jack\aiservice\service\InfoQueryService.class
+com\jack\aiservice\impl\service\LoginServiceImpl.class

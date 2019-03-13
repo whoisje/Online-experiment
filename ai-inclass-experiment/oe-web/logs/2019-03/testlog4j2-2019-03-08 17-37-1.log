@@ -1,0 +1,28 @@
+2019-03-08 17:37:49 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+params:10001org.apache.catalina.connector.RequestFacade@7bcc70e2
+className：class com.jack.aiweb.controller.InfoQueryController
+method:public com.jack.aicore.beans.ApiResponse com.jack.aiweb.controller.InfoQueryController.getClassInfo(java.lang.String,javax.servlet.http.HttpServletRequest)
+请求地址：/getExperimentList
+2019-03-08 17:37:49 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+执行结果：ApiResponse(ret=1, message=success, body=[ExpEntity(experimentId=100001, experimentTitle=猴子摘香蕉问题的python编程实现, courseId=null, experimentEnvironment=null, experimentQuestion=null, expectResult=null, experimentPurpose=null)])
+2019-03-08 17:37:49 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+params:{experimentIdList=[100001]}org.apache.catalina.connector.RequestFacade@7bcc70e2
+className：class com.jack.aiweb.controller.InfoQueryController
+method:public com.jack.aicore.beans.ApiResponse com.jack.aiweb.controller.InfoQueryController.selectStatusList(java.util.Map,javax.servlet.http.HttpServletRequest)
+请求地址：/selectStatusList
+2019-03-08 17:37:49 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+执行结果：ApiResponse(ret=1, message=success, body=[HasFinishedEntity(studentId=null, experimentId=100001, code=null, feeling=null, codeResult=null, runStatus=0, status=2)])
+2019-03-08 17:37:51 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+params:org.apache.catalina.connector.RequestFacade@7bcc70e2
+className：class com.jack.aiweb.controller.InfoQueryController
+method:public com.jack.aicore.beans.ApiResponse com.jack.aiweb.controller.InfoQueryController.selectStatusList(javax.servlet.http.HttpServletRequest)
+请求地址：/getCourseList
+2019-03-08 17:37:51 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+执行结果：ApiResponse(ret=1, message=success, body=[CourseEntity(courseId=10001, courseName=人工智能, courseClassification=1), CourseEntity(courseId=10002, courseName=机器学习, courseClassification=1), CourseEntity(courseId=10003, courseName=计算机组成原理, courseClassification=1)])
+2019-03-08 17:37:58 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+params:org.apache.catalina.connector.RequestFacade@7bcc70e2
+className：class com.jack.aiweb.controller.InfoQueryController
+method:public com.jack.aicore.beans.ApiResponse com.jack.aiweb.controller.InfoQueryController.selectStatusList(javax.servlet.http.HttpServletRequest)
+请求地址：/getCourseList
+2019-03-08 17:37:58 [com.jack.aicore.aop.aspect.MethodCallRecord]-[INFO] - 
+执行结果：ApiResponse(ret=1, message=success, body=[CourseEntity(courseId=10001, courseName=人工智能, courseClassification=1), CourseEntity(courseId=10002, courseName=机器学习, courseClassification=1), CourseEntity(courseId=10003, courseName=计算机组成原理, courseClassification=1)])
